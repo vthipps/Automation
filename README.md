@@ -27,11 +27,11 @@ Further Improvements
 
 
 Declarative type of Scenario
-Scenario: Order a Tshirt product and verify the order updated in the order history 
-Given I navigate to the application and logged in with username "dummy@gmail.com" and password "12345"
-When I click T-Shirts amd add the product "Faded Short Sleeve T-Shirts" with Quantity "1" , Color "Blue" and Size "M"
-And I open the Shopping cart I Should able to see the added product 
-And I proceed to Address page to confrim the address
-And I agree Terms and services for Shipping
-And the payment should be "BANKWIRE"
-Then I should see the order refernce number in the order History page
+- Scenario: Order a Tshirt product and verify the order updated in the order history 
+- Given I navigate to the application and logged in with username "dummy@gmail.com" and password "12345"
+- When I click T-Shirts amd add the product "Faded Short Sleeve T-Shirts" with Quantity "1" , Color "Blue" and Size "M"
+- And I open the Shopping cart I Should able to see the added product 
+- And I proceed to Address page to confrim the address
+- And I agree Terms and services for Shipping
+- And the payment should be "BANKWIRE"
+- Then I should see the order refernce number in the order History page
