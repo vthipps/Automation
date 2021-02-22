@@ -22,6 +22,9 @@ Further Improvements
 7. Example of using Imperative steps, update with declarative steps
 8. At present browser can be changed from the App.Config, should automatically taken from the Scenarios. 
 9. Need to add RemoteWebDriver to run from Selenium Grid
+10. Updating with custom Log messages and event logs (on element click etc...)
+
+
 
 Declarative type of Scenario
 Scenario: Order a Tshirt product and verify the order updated in the order history 
