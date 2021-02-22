@@ -23,6 +23,7 @@ Further Improvements
 8. At present browser can be changed from the App.Config, should automatically taken from the Scenarios. 
 9. Need to add RemoteWebDriver to run from Selenium Grid
 10. Updating with custom Log messages and event logs (on element click etc...)
+11. Update from .Net Framework to .Net Core
 
 
 
